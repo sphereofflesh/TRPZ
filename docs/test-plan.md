@@ -24,6 +24,12 @@ dotnet run --project Labka
 8. Swagger відкривається на `/swagger`.
 9. Невідома адреса повертає 404, а `POST /weatherforecast` — 405.
 
+## Автоматичні перевірки
+
+Пункти 1–7 і 9 покриті тестами в `tests/Labka.Tests`. Вони виконуються командою `dotnet test` і на кожному Pull Request у CI (workflow `CI`, крок Test).
+
+Пункт 8 (Swagger) і відповідь 405 на `POST /weatherforecast` перевіряються вручну.
+
 ## Результат
 
 Усі перевірки пройдено.
