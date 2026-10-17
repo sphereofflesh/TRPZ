@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labka", "Labka\Labka.csproj", "{185D4033-1CA7-47EA-B9D5-E2A218A89027}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{35039BA3-B954-4EBE-BF40-36DB3A499546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labka.Tests", "tests\Labka.Tests\Labka.Tests.csproj", "{7763CA73-1F29-4376-8403-D89D0EF5D979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{185D4033-1CA7-47EA-B9D5-E2A218A89027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185D4033-1CA7-47EA-B9D5-E2A218A89027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185D4033-1CA7-47EA-B9D5-E2A218A89027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185D4033-1CA7-47EA-B9D5-E2A218A89027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7763CA73-1F29-4376-8403-D89D0EF5D979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7763CA73-1F29-4376-8403-D89D0EF5D979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7763CA73-1F29-4376-8403-D89D0EF5D979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7763CA73-1F29-4376-8403-D89D0EF5D979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7763CA73-1F29-4376-8403-D89D0EF5D979} = {35039BA3-B954-4EBE-BF40-36DB3A499546}
+	EndGlobalSection
+EndGlobal
